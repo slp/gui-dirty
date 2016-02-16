@@ -224,7 +224,7 @@ static BOOL menuBarVisible = YES;
 {
   NSMenuPanel *win = [[NSMenuPanel alloc] 
 		     initWithContentRect: NSZeroRect
-		     styleMask: NSBorderlessWindowMask
+		     styleMask: NSBorderlessWindowMask | NSMainMenuWindowMask
 		     backing: NSBackingStoreBuffered
 		     defer: YES];
   [win setBackgroundColor: [NSColor clearColor]];
